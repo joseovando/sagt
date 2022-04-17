@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5abbb883-88e3-4f18-bf32-df6d05263bb2" name="Default" comment="" />
+    <ignored path="sagt.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DrupalConfiguration" version="8">
+    <drupalPath>$PROJECT_DIR$</drupalPath>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sagt" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ActividadController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Controller/ActividadController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+              <folding>
+                <element signature="e#127#169#0#PHP" expanded="true" />
+                <marker date="1470268910628" expanded="true" signature="18611:19357" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="18640:18892" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="18936:19036" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="19081:19181" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="19226:19329" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="19750:20748" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="19779:20407" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="20451:20561" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="20606:20720" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="21372:22875" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="21401:22077" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="22121:22225" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="22270:22373" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="22417:22526" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="22570:22683" ph="..." />
+                <marker date="1470268910628" expanded="true" signature="22727:22848" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AceptarActividadForm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Form/AceptarActividadForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="518" column="30" selection-start-line="518" selection-start-column="12" selection-end-line="518" selection-end-column="30" />
+              <folding>
+                <element signature="e#7#80#0#PHP" expanded="true" />
+                <element signature="e#116#146#0#PHP" expanded="true" />
+                <marker date="1470347961994" expanded="true" signature="8982:9027" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9048:9106" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9131:9175" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9203:9249" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9282:9337" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9373:9421" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9441:9487" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9507:9532" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="9765:10040" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="10334:10609" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="10816:11024" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="14114:14322" ph="..." />
+                <marker date="1470347961994" expanded="true" signature="14518:14793" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AprobarProgramacionActividadForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Form/AprobarProgramacionActividadForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="421" column="60" selection-start-line="421" selection-start-column="8" selection-end-line="421" selection-end-column="60" />
+              <folding>
+                <marker date="1470162658758" expanded="true" signature="6291:6368" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="6979:7407" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="7011:7375" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="7042:7342" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="9938:9998" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10026:10088" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10121:10182" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10203:10292" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10315:10373" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10391:10455" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10476:10550" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10575:10651" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10681:10749" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10774:10923" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="10960:11114" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="11143:11216" ph="..." />
+                <marker date="1470162658758" expanded="true" signature="11249:11359" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportarActividadForm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Form/ReportarActividadForm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-972">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1470162675036" expanded="true" signature="4484:4529" ph="..." />
+                <marker date="1470162675036" expanded="true" signature="4550:4594" ph="..." />
+                <marker date="1470162675036" expanded="true" signature="4622:4668" ph="..." />
+                <marker date="1470162675036" expanded="true" signature="4701:4759" ph="..." />
+                <marker date="1470162675036" expanded="true" signature="4762:4825" ph="..." />
+                <marker date="1470162675036" expanded="true" signature="4828:4885" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modules/sagt/actividad/src/Controller/ActividadController.php" />
+        <option value="$PROJECT_DIR$/modules/sagt/actividad/src/Form/AceptarActividadForm.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="." />
+      <path value="C:\php\pear" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1370" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actividad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actividad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actividad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actividad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sagt" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="actividad" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.splitter.proportion" value="0.23212537" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5abbb883-88e3-4f18-bf32-df6d05263bb2" name="Default" comment="" />
+      <created>1470267405300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470267405300</updated>
+      <workItem from="1470267409173" duration="11671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11671000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2519084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Controller/ActividadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+          <folding>
+            <element signature="e#127#169#0#PHP" expanded="true" />
+            <marker date="1470268910628" expanded="true" signature="18611:19357" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="18640:18892" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="18936:19036" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="19081:19181" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="19226:19329" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="19750:20748" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="19779:20407" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="20451:20561" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="20606:20720" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="21372:22875" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="21401:22077" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="22121:22225" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="22270:22373" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="22417:22526" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="22570:22683" ph="..." />
+            <marker date="1470268910628" expanded="true" signature="22727:22848" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Entity/ActividadEntity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <marker date="1470079829038" expanded="true" signature="126:156" ph="SELECT * FRO... " />
+            <marker date="1470079829038" expanded="true" signature="297:351" ph="SELECT * FRO... " />
+            <marker date="1470079829038" expanded="true" signature="523:608" ph="SELECT * FRO... " />
+            <marker date="1470079829038" expanded="true" signature="760:814" ph="SELECT * FRO... " />
+            <marker date="1470079829038" expanded="true" signature="991:1076" ph="SELECT * FRO... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Form/ReportarActividadForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-972">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470162675036" expanded="true" signature="4484:4529" ph="..." />
+            <marker date="1470162675036" expanded="true" signature="4550:4594" ph="..." />
+            <marker date="1470162675036" expanded="true" signature="4622:4668" ph="..." />
+            <marker date="1470162675036" expanded="true" signature="4701:4759" ph="..." />
+            <marker date="1470162675036" expanded="true" signature="4762:4825" ph="..." />
+            <marker date="1470162675036" expanded="true" signature="4828:4885" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Form/AprobarProgramacionActividadForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="421" column="60" selection-start-line="421" selection-start-column="8" selection-end-line="421" selection-end-column="60" />
+          <folding>
+            <marker date="1470162658758" expanded="true" signature="6291:6368" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="6979:7407" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="7011:7375" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="7042:7342" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="9938:9998" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10026:10088" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10121:10182" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10203:10292" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10315:10373" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10391:10455" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10476:10550" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10575:10651" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10681:10749" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10774:10923" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="10960:11114" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="11143:11216" ph="..." />
+            <marker date="1470162658758" expanded="true" signature="11249:11359" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/sagt/actividad/src/Form/AceptarActividadForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="518" column="30" selection-start-line="518" selection-start-column="12" selection-end-line="518" selection-end-column="30" />
+          <folding>
+            <element signature="e#7#80#0#PHP" expanded="true" />
+            <element signature="e#116#146#0#PHP" expanded="true" />
+            <marker date="1470347961994" expanded="true" signature="8982:9027" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9048:9106" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9131:9175" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9203:9249" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9282:9337" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9373:9421" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9441:9487" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9507:9532" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="9765:10040" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="10334:10609" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="10816:11024" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="14114:14322" ph="..." />
+            <marker date="1470347961994" expanded="true" signature="14518:14793" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

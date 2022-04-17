@@ -1,0 +1,5 @@
+name: 'Form example'
+type: module
+description: 'An example module showing how to define a custom form.'
+package: 'LABTEK modules'
+core: 8.x

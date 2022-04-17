@@ -1,0 +1,43 @@
+/* --------------- System Tabs  --------------- */
+#block-tabs h2 {
+  padding: 10px;
+}
+#block-tabs ul {
+  list-style-type:none;
+  border-bottom: 1px solid #bbb;
+  border-collapse: collapse;
+  height: auto;
+  line-height: normal;
+  list-style: none;
+  margin: 5px;
+  padding: 0 0 0 1em;
+  white-space: nowrap;
+  margin-bottom:50px;
+}
+
+#block-tabs ul li{
+  display:inline;
+  height:50px;
+
+
+}
+#block-tabs ul li a{
+  background: none;
+  border: none;
+  line-height: 2.12em;
+  margin: 0;
+  padding: 6px 1em;
+  border-radius: 4px 4px 0 0 !important;
+  margin-right: 5px;
+
+}
+#block-tabs ul li :nth-of-type(1) {
+  background: #666;
+  border: none;
+  color: #fff
+}
+#block-tabs ul li :hover {
+  background: #666;
+  border: none;
+  color: #fff
+}

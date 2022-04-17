@@ -1,0 +1,7 @@
+name: actividad
+description: 'Módulo de Seguimiento y Control de Actividades de las Unidades de Transparencia'
+type: module
+core: 8.x
+package: Sagt
+libraries:
+  - actividad/actividad_library

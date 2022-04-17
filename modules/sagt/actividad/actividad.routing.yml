@@ -1,0 +1,72 @@
+actividad_add:
+  path: '/actividad/reportar/{id}'
+  defaults:
+    _form: '\Drupal\actividad\Form\ReportarActividadForm'
+    _title: 'Reportar Actividad'
+  requirements:
+    _permission: 'access content'
+    
+actividad_bandeja_entrada_ut:
+  path: '/actividad/bandeja_entrada/ut/{tabla_id}'
+  defaults:
+    _controller: '\Drupal\actividad\Controller\ActividadController::bandejaEntradaUt'
+    _title: 'Bandeja de Entrada Unidad de Transparencia'
+  requirements:
+    _permission: 'access content'
+    
+actividad_bandeja_aceptar_actividad:
+  path: '/actividad/bandeja_entrada/aceptar/{tabla_id}'
+  defaults:
+    _controller: '\Drupal\actividad\Controller\ActividadController::aceptarActividad'
+    _title: 'Aceptar Actividad'
+  requirements:
+    _permission: 'access content'    
+    
+actividad_aceptar:
+  path: '/actividad/aceptar/{id}/{id_tipo}'
+  defaults:
+    _form: '\Drupal\actividad\Form\AceptarActividadForm'
+    _title: 'Aceptar Actividad'
+  requirements:
+    _permission: 'access content'
+
+actividad_bandeja_actividad_programada:
+  path: '/actividad/bandeja_entrada/aprobar/programada/{tabla_id}'
+  defaults:
+    _controller: '\Drupal\actividad\Controller\ActividadController::aprobarActividadProgramada'
+    _title: 'Aprobar Actividad Programada'
+  requirements:
+    _permission: 'access content'    
+ 
+actividad_aprobar_programacion:
+  path: '/actividad/aprobar/programacion/{id}'
+  defaults:
+    _form: '\Drupal\actividad\Form\AprobarProgramacionActividadForm'
+    _title: 'Aprobar Programacion de Actividad'
+  requirements:
+    _permission: 'access content'
+
+actividad_bandeja_entrada:
+  path: '/actividad/bandeja_entrada'
+  defaults:
+    _controller: '\Drupal\actividad\Controller\ActividadController::bandejaEntradaTab'
+    _title: 'Bandeja de Entrada'
+  requirements:
+    _permission: 'access content'
+    
+actividad_bandeja_entrada_observada:
+  path: '/actividad/estado/{id}/{tabla_id}'
+  defaults:
+    _controller: '\Drupal\actividad\Controller\ActividadController::actividadEstado'
+    _title: 'Bandeja de Entrada Actividad Observada'
+  requirements:
+    _permission: 'access content'
+    
+actividad_creada_monitor:
+  path: '/actividad/bandeja_entrada/monitor/creada/{tabla_id}'
+  defaults:
+    _controller: '\Drupal\actividad\Controller\ActividadController::actividadCreadaMonitor'
+    _title: 'Bandeja de Entrada Actividad Creada'
+  requirements:
+    _permission: 'access content'
+  

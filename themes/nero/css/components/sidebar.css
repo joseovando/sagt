@@ -1,0 +1,17 @@
+/* ------------------ Sidebar ----------------- */
+.sidebar h1,.sidebar h2,.sidebar h3, .sidebar h4, .sidebar h5,.sidebar  h6 {
+  margin: 0.3em 0px 0.5em;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  padding-bottom: 5px;
+  text-shadow: rgb(255, 255, 255) 0px 1px 0px;
+  font-size: 1.071em;
+  line-height: 1.2;
+}
+
+.sidebar ul {
+  list-style-type:circle;
+  padding-left:0px;
+}
+.sidebar p{
+  padding-left:10px;
+}

@@ -1,0 +1,87 @@
+global-css:
+  version: 1.x
+  css:
+    theme:
+      css/bootstrap.css: {}
+      css/bootstrap.min.css: {}
+      css/ddlevelsmenu-base.css: {}
+      css/ddlevelsmenu-topbar.css: {}
+      css/font-awesome.min.css: {}
+      css/prettyPhoto.css: {}
+      css/settings.css: {}
+      css/global.css: {}
+      css/style.css: {}
+      css/custom.css: {}
+      css/landing.css: {}
+      css/demo.css: {}
+bootstrap_javascript:
+  version: VERSION
+  js:
+    js/bootstrap.js: {}
+    js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/drupal
+nero-corescripts:
+  version: VERSION
+  js:
+    js/ddlevelsmenu.js: {}
+    js/filter.js: {}
+    js/html5shiv.js: {}
+    js/jquery.cslider.js: {}
+    js/jquery.isotope.js: {}
+    js/jquery.prettyPhoto.js: {}
+    js/respond.js: {}
+    js/modernizr.custom.28468.js: {}
+    js/jquery.themepunch.revolution.min.js: {}
+    js/jquery.themepunch.plugins.min.js: {}
+    js/slider.js: {}
+    js/custom.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+nero-components:
+  version: 1.x
+  css:
+    theme:
+      css/components/table.css: {}
+      css/components/form.css: {}
+      css/components/buttons.css: {}
+      css/components/breadcrumb.css: {}
+      css/components/comments.css: {}
+      css/components/page.css: {}
+      css/components/block.css: {}
+      css/components/tabs.css: {}
+      css/components/book.css: {}
+      css/components/captions.css: {}
+      css/components/contextual.css: {}
+      css/components/demo-block.css: {}
+      css/components/dropbutton.component.css: {}
+      css/components/featured-bottom.css: {}
+      css/components/featured-top.css: {}
+      css/components/feed-icon.css: {}
+      css/components/field.css: {}
+      css/components/forum.css: {}
+      css/components/header.css: {}
+      css/components/help.css: {}
+      css/components/highlighted.css: {}
+      css/components/item-list.css: {}
+      css/components/main-content.css: {}
+      css/components/menu.css: {}
+      css/components/messages.css: {}
+      css/components/pager.css: {}
+      css/components/secondary-menu.css: {}
+      css/components/sidebar.css: {}
+      css/components/site-footer.css: {}
+      css/components/toolbar.css: {}
+      css/components/ui-dialog.css: {}
+      css/components/views.css: {}
+      css/components/ui.widget.css: {}
+      css/components/site-footer.css: {}
+      css/components/primary-menu.css: {}
+      css/components/search-form.css: {}
+      css/components/vertical-tabs.component.css: {}

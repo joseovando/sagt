@@ -1,0 +1,53 @@
+name: Nero
+base theme: classy
+type: theme
+description: Nero Bootsrap Theme Developed By Knackforge
+libraries:
+  - nero/global-css
+  - nero/bootstrap_javascript
+  - nero/nero-corescripts
+  - nero/nero-components
+regions:
+  pre_header_first: 'Pre Header First'
+  pre_header_second: 'Pre Header Second'
+  pre_header_third: 'Pre Header Third'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  page_title_right: 'Page Title Right'
+  page_title_left: 'Page Title Left'
+  banner: 'Banner'
+  top_first: 'Top First'
+  top_second_first: 'Top Second First'
+  top_second_second: 'Top Second Second'
+  top_second_third: 'Top Second Third'
+  services: 'Services'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  content_top_highlighted: 'Content Top Highlighted'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_top: 'Footer Top'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+# Information added by Drupal.org packaging script on 2015-03-18
+# version: '8.x-1.0-rc4'
+# core: '8.x'
+# project: 'nero'
+# datestamp: 1426639082
+
+# Information added by Drupal.org packaging script on 2015-12-07
+# version: '8.x-1.2'
+# core: '8.x'
+# project: 'nero'
+# datestamp: 1449470943
+
+# Information added by Drupal.org packaging script on 2016-04-05
+version: '8.x-1.3'
+core: '8.x'
+project: 'nero'
+datestamp: 1459832627

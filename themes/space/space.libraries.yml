@@ -1,0 +1,20 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/navigation.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+
+space-header:
+  version: VERSION
+  js:
+    js/space-header.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - space/global-styling
+

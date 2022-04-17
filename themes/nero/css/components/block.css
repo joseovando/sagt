@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Visual styles for Bartik's blocks.
+ */
+
+.block ol,
+.block ul {
+  margin: 0;
+  padding: 0 0 0.25em 1em; /* LTR */
+}
+[dir="rtl"] .block ol,
+[dir="rtl"] .block ul {
+  padding: 0 1em 0.25em 0;
+  /* This is required to win over specifity of [dir="rtl"] ul.menu */
+  margin-right: 0;
+}
+.subscribe-form .form-text {
+  width: 180px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  color: #555;
+  float: left;
+  height: 32px;
+  line-height: 1.6;
+  vertical-align: middle;
+}
+.subscribe-form .form-submit {
+  background-color: rgb(223, 143, 86);
+  border: none;
+  float: left;
+  color: #fff;
+  height: 34px;
+  padding: 4px 8px 6px;
+  margin: 0;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}

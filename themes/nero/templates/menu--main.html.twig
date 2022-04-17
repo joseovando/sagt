@@ -1,0 +1,77 @@
+{#  https://api.drupal.org/api/drupal/core!modules!system!templates!menu.html.twig/8
+    menu_name: The machine name of the menu.
+    items: A nested list of menu items. Each menu item contains:
+      attributes: HTML attributes for the menu item.
+      below: The menu item child items.
+      title: The menu link title.
+      url: The menu link url, instance of \Drupal\Core\Url
+      localized_options: Menu link localized options.
+#}
+
+{# All menu and submenu items #}
+{% set colors = ['blightblue', 'bred', 'bviolet', 'bgreen', 'borange', 'bblue'] %}
+<ul class="nero-menu">
+  {% for item in items %}
+
+    {# Menu with submenu #}
+
+    {% if item.below %}
+      <li>
+				{% if item.title == 'Home' %}
+					<a href={{ item.url }} rel="ddsubmenu2"  class="{{ random(colors) }}"> <i class="fa fa-home"></i> {{ item.title }} <span class="down-arrow"></span></a>
+				{% elseif item.title == 'About' %}
+					<a href={{ item.url }} rel="ddsubmenu2"  class="{{ random(colors) }}"> <i class="fa fa-desktop"></i> {{ item.title }} <span class="down-arrow"></span></a>
+				{% elseif item.title == 'Pages' %}
+					<a href= {{ item.url }} rel="ddsubmenu2"  class="{{ random(colors) }}"> <i class="fa fa-tablet"></i> {{ item.title }} <span class="down-arrow"></span></a>
+				{% elseif item.title == 'Blogs' %}
+					<a href={{ item.url }} rel="ddsubmenu2" class="{{ random(colors) }}"> <i class="fa fa-comments"></i>  {{ item.title }} <span class="down-arrow"></span></a>
+				{% elseif item.title == 'Porfolio' %}
+					<a href={{ item.url }} rel="ddsubmenu2" class="{{ random(colors) }}"> <i class="fa fa-camera"></i> {{ item.title }} <span class="down-arrow"></span></a>
+				{% elseif item.title == 'Contact' %}
+					<a href={{ item.url }} rel="ddsubmenu2" class="{{ random(colors) }}"> <i class="fa fa-envelope-o"></i> {{ item.title }} <span class="down-arrow"></span></a>
+				{% else %}
+					<a href={{ item.url }} rel="ddsubmenu2" class="{{ random(colors) }}"> <i class="fa fa-envelope-o"></i> {{ item.title }} <span class="down-arrow"></span></a>
+				{% endif %}
+					<ul id="ddsubmenu2" class="ddsubmenustyle nero-sub">
+						{# Menu -> Submenu #}
+						{% for item in item.below %}
+							 {% if item.below %}
+								 <li><a href="{{ item.url }}"> {{ item.title }}<span class="fa fa-arrow-right submenu-right-arrow"></span></a>
+									 <ul class="melti-child">
+										 {% for item in item.below %}
+											 {% if menu_level == 0 %}
+												 <li><a href="{{ item.url }}"> {{ item.title }}</a></li>
+											 {% else %}
+												 <li><a href="{{ item.url }}"> {{ item.title }}</span></a></li>
+											 {% endif %}
+										 {% endfor %}
+									 </ul>
+								 </li>
+							   {% else %}
+								 <li><a href="{{ item.url }}"> {{ item.title }} <span class="arrow-down"></span></a></li>
+						   {% endif %}
+						{% endfor %}
+					</ul>
+      </li>
+
+    {# Menu without submenu #}
+    {% else %}
+      {# Menu - Link #}
+      {% if item.title == 'Home' %}
+				<li><a href={{ item.url }}  class="{{ random(colors) }}"> <i class="fa fa-home"></i> {{ item.title }} </a></li>
+			{% elseif item.title == 'About' %}
+				<li><a href={{ item.url }}  class="{{ random(colors) }}"> <i class="fa fa-desktop"></i> {{ item.title }} </a></li>
+			{% elseif item.title == 'Pages' %}
+				<li><a href= {{ item.url }}  class="{{ random(colors) }}"> <i class="fa fa-tablet"></i> {{ item.title }} </a></li>
+			{% elseif item.title == 'Blogs' %}
+				<li><a href={{ item.url }}  class="{{ random(colors) }}"> <i class="fa fa-comments"></i>  {{ item.title }} </a></li>
+			{% elseif item.title == 'Porfolio' %}
+				<li><a href={{ item.url }} class="{{ random(colors) }}"> <i class="fa fa-camera"></i> {{ item.title }} </a></li>
+			{% elseif item.title == 'Contact' %}
+				<li><a href={{ item.url }} class="{{ random(colors) }}"> <i class="fa fa-envelope-o"></i> {{ item.title }} </a></li>
+			{% else %}
+				<li><a href={{ item.url }} class="{{ random(colors) }}"> <i class="fa fa-envelope-o"></i> {{ item.title }} </a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>

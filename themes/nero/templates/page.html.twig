@@ -1,0 +1,382 @@
+{#
+/**
+ * @file
+ * nero's theme implementation to display a single page.
+ *
+ * The doctype, html, head and body tags are not in this template. Instead they
+ * can be found in the html.html.twig template normally located in the
+ * core/modules/system directory.
+ *
+ * Available variables:
+ *
+ * General utility variables:
+ * - base_path: The base URL path of the Drupal installation. Will usually be
+ *   "/" unless you have installed Drupal in a sub-directory.
+ * - is_front: A flag indicating if the current page is the front page.
+ * - logged_in: A flag indicating if the user is registered and signed in.
+ * - is_admin: A flag indicating if the user has permission to access
+ *   administration pages.
+ *
+ * Site identity:
+ * - front_page: The URL of the front page. Use this instead of base_path when
+ *   linking to the front page. This includes the language domain or prefix.
+ * - logo: The url of the logo image, as defined in theme settings.
+ * - site_name: The name of the site. This is empty when displaying the site
+ *   name has been disabled in the theme settings.
+ * - site_slogan: The slogan of the site. This is empty when displaying the site
+ *   slogan has been disabled in theme settings.
+
+ * Page content (in order of occurrence in the default page.html.twig):
+ * - title_prefix: Additional output populated by modules, intended to be
+ *   displayed in front of the main title tag that appears in the template.
+ * - title: The page title, for use in the actual content.
+ * - title_suffix: Additional output populated by modules, intended to be
+ *   displayed after the main title tag that appears in the template.
+ * - node: Fully loaded node, if there is an automatically-loaded node
+ *   associated with the page and the node ID is the second argument in the
+ *   page's path (e.g. node/12345 and node/12345/revisions, but not
+ *   comment/reply/12345).
+ *
+ * Regions:
+ * - page.pre_header_first: Items for the header top first region.
+ * - page.pre_header_second: Items for the header top second region.
+ * - page.pre_header_third: Items for the header top third region.
+ * - page.header: Items for the header region.
+ * - page.primary_menu: Items for the primary menu region.
+ * - page.page_title_right: Items for the page title right region.
+ * - page.page_title_left: Items for the page title left region.
+ * - page.banner: Items for the banner region.
+ * - page.top_first: Items for the page top first region.
+ * - page.top_second_first: Items for the page top second first column region.
+ * - page.top_second_second: Items for the page top second second column region.
+ * - page.top_second_third: Items for the page top second third column region.
+ * - page.services: Items for the services region.
+ * - page.highlighted: Items for the highlighted region.
+ * - page.content: The main content of the current page.
+ * - page.sidebar_first: Items for the first sidebar.
+ * - page.sidebar_second: Items for the second sidebar.
+ * - page.footer_top: Items for the footer top region.
+ * - page.footer_bottom: Items for the footer bottom region.
+ * - page.footer_first: Items for the first footer column.
+ * - page.footer_second: Items for the second footer column.
+ * - page.footer_third: Items for the third footer column.
+ * - page.footer_fourth: Items for the fourth footer column.
+ * - page.footer_fifth: Items for the fifth footer column.
+ *
+ * @see template_preprocess_page()
+ * @see nero_preprocess_page()
+ * @see html.html.twig
+ */
+#}
+
+<!-- #pre-header -->
+<div class="slidepanel">
+	<div class="container">
+		<!-- #pre-header-inside -->
+		<div class="row">
+			<div class="col-md-8">
+				<div class="spara">
+					{% if page.pre_header_first %}
+						<p><i class="fa fa-envelope-o lightblue"></i></p>
+						{{ page.pre_header_first }}
+					{% endif %}
+					{% if page.pre_header_second %}
+						<p><i class="fa fa-twitter lightblue"></i></p>
+						{{ page.pre_header_second }}
+					{% endif %}
+					{% if page.pre_header_third %}
+						<p><i class="fa fa-desktop lightblue"></i></p>
+						{{ page.pre_header_third }}
+					{% endif %}
+				</div>
+			</div>
+			<div class="col-md-4">
+				{% if show_social_icons %}
+					<div class="social">
+						<a href="{{ facebook_url }}"  class="bblue" target="_blank" ><i class="fa fa-facebook"></i></a>
+						<a href="{{ google_plus_url }}"  class="borange" target="_blank" ><i class="fa fa-google-plus"></i></a>
+						<a href="{{ twitter_url }}" class="blightblue" target="_blank" ><i class="fa fa-twitter"></i></a>
+						<a href="{{ linkedin_url }}" class="bviolet" target="_blank"><i class="fa fa-linkedin"></i></a>
+						<a href="{{ pinterest_url }}" class="bred" target="_blank" ><i class="fa fa-pinterest"></i></a>
+						<a href="{{ rss_url }}" class="borange" target="_blank" ><i class="fa fa-rss"></i></a>
+					</div>
+				{% endif %}
+			</div>
+			<!-- EOF: #pre-header-inside -->
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+</div>
+<!-- EOF: #pre-header -->
+
+
+<!-- Header starts -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-4">
+				<!-- Logo starts -->
+				{% if page.header %}
+					{{ page.header }}
+				{% endif %}
+				<!-- Logo ends -->
+			</div>
+			<div class="col-md-9 col-sm-8">
+				<!-- Navbar starts -->
+				<div class="navi pull-right">
+					<div id="ddtopmenubar" class="mattblackmenu">
+						{{ page.primary_menu }}
+					</div>
+				</div>
+				<div class="navis"></div>
+				<!-- Navbar ends -->
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="clearfix"></div>
+
+{%  if not is_front and (page_title or page.page_title_right or page.page_title_left)  %}
+	<!-- Header ends -->
+	<div class="page-heading blightblue">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					{% if page.page_title_left %}
+						<h2 class="pull-left">
+							{% if page.page_title_right %}
+								{{  page.page_title_right }}
+							{% else %}
+								<i class="fa fa-flag-o title-icon"></i>	{{ page_title }}
+							{% endif %}
+						</h2>
+						<div class="pull-right heading-meta"> {{ page.page_title_left }}</div>
+					{% else %}
+						{% if page.page_title_right %}
+							{{  page.page_title_right }}
+						{% else %}
+							<h2><i class="fa fa-flag-o title-icon"></i>	{{ page_title }}</h2>
+						{% endif %}
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	</div>
+{% endif %}
+
+{% if is_front  %}
+	<!-- Slider starts -->
+	{% if slideshow_display  %}
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				{% for slider_contents in slider_content %}
+					{{ slider_contents | raw }}
+				{% endfor %}
+				<!-- SLIDE  -->
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+		</div>
+		<!-- Slider ends -->
+	{% endif %}
+{% endif %}
+
+{% if page.banner %}
+	<div class="contact">
+		<div class="col-md-12">
+			{{  page.banner }}
+		</div>
+	</div>
+{% endif %}
+
+<div class="clearfix"></div>
+
+{% if page.top_first %}
+	<div class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					{{ page.top_first }}
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endif %}
+
+<!-- Big box starts -->
+{% if page.top_second_first or page.top_second_third or page.top_second_second %}
+	<div class="big-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 blightblue">
+					<!-- Left box -->
+					{% if page.top_second_first %}
+						<div class="big-box-left ">
+							<!-- Box content -->
+							<div class="box-content">
+								<!-- title -->
+								{{ page.top_second_first }}
+							</div>
+						</div>
+					{% endif %}
+					<!-- Top Second Second  -->
+					{% if page.top_second_second %}
+						<div class="big-box-mid ">
+							{{ page.top_second_second }}
+						</div>
+					{% endif %}
+					<!-- top second third -->
+					{% if page.top_second_third %}
+						<div class="big-box-right bblack">
+							<div class="box-content">
+								{{ page.top_second_third}}
+							</div>
+						</div>
+					{% endif %}
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+
+{% endif %}
+<!-- Big box ends -->
+
+{% if page.content_top_highlighted %}
+	<div class="container">
+		<div class="cta bviolet highlight_alignment">
+			<div class="row">
+				{{ page.content_top_highlighted }}
+			</div>
+		</div>
+	</div>
+{% endif %}
+
+{% if page.services %}
+	<div class="service-home">
+		<div class="container">
+			<!-- Title -->
+			<h3 class="title"><i class="fa fa-arrow-right title-icon"></i> Service</h3>
+			<div class="row">
+				{{ page.services }}
+			</div>
+			<hr />
+		</div>
+	</div>
+{% endif %}
+
+<div class="content">
+	<div class="container">
+		{% if page.sidebar_first %}
+			<div class={{ sidebarfirst }} >
+				<!-- Sidebar 2 -->
+				<div class="sidebar">
+					{{ page.sidebar_first }}
+				</div>
+			</div>
+		{% endif %}
+		{% if page.content %}
+			<div class={{ contentlayout }}>
+				<div class="posts">
+					{{ page.breadcrumb }}
+					<div class="clearfix"></div>
+					{{ page.content }}
+				</div>
+			</div>
+		{% endif %}
+		{% if page.sidebar_second %}
+			<div class={{ sidebarsecond }}>
+				<!-- Sidebar 1 -->
+				<div class="sidebar">
+					{{ page.sidebar_second }}
+				</div>
+			</div>
+		{% endif %}
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+{% if page.footer_top %}
+	<div class="foot blightblue">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<!-- User icon -->
+					<span class="twitter-icon text-center"><i class="fa fa-thumbs-up"></i></span>
+					<p><em>{{ page.footer_top }}</em></p>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endif %}
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="widgets">
+				{% if page.footer_first %}
+					<div class="col-md-3">
+						<div class="fwidget">
+							{{ page.footer_first }}
+							<div class="social">
+								{% if show_social_icons %}
+									<div class="social">
+										<a href="{{ facebook_url }}"  class="bblue" target="_blank" ><i class="fa fa-facebook"></i></a>
+										<a href="{{ google_plus_url }}"  class="borange" target="_blank" ><i class="fa fa-google-plus"></i></a>
+										<a href="{{ twitter_url }}" class="blightblue" target="_blank" ><i class="fa fa-twitter"></i></a>
+										<a href="{{ linkedin_url }}" class="bviolet" target="_blank"><i class="fa fa-linkedin"></i></a>
+										<a href="{{ pinterest_url }}" class="bred" target="_blank" ><i class="fa fa-pinterest"></i></a>
+										<a href="{{ rss_url }}" class="borange" target="_blank" ><i class="fa fa-rss"></i></a>
+									</div>
+								{% endif %}
+							</div>
+						</div>
+					</div>
+				{% endif %}
+				{% if page.footer_second %}
+					<div class="col-md-3">
+						<div class="fwidget">
+							{{ page.footer_second }}
+						</div>
+					</div>
+				{% endif %}
+				{% if page.footer_third %}
+					<div class="col-md-3">
+						<div class="fwidget">
+							{{ page.footer_third }}
+						</div>
+					</div>
+				{% endif %}
+				{% if page.footer_fourth %}
+					<div class="col-md-3">
+						<div class="fwidget">
+							{{ page.footer_fourth }}
+						</div>
+					</div>
+				{% endif %}
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 footer_bottom">
+				<div class="copy">
+					<p class="text-center">Nero ported to drupal by <a href="http://dropthemes.in" target="_blank">DropThemes.in</a></p>
+					{{ page.footer_fifth }}
+					<div class="clearfix"></div>
+				</div>
+				{% if show_social_icons %}
+					{{ social_icons | raw}}
+				{% endif %}
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+</footer>

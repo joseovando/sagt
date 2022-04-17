@@ -1,0 +1,7 @@
+page_example_form:
+  path: '/labtek/page_example/form'
+  defaults:
+    _form: '\Drupal\form_example\Form\PageExampleForm'
+    _title: 'Demo Form'
+  requirements:
+    _permission: 'access simple page'
